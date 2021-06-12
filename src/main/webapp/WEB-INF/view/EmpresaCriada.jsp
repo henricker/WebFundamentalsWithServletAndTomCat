@@ -8,6 +8,8 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<c:import url="logout.jsp"></c:import>
+	
 	<c:if test="${ not empty empresa }">
 		<h1>${ empresa } criada com sucesso!</h1>
 	</c:if>

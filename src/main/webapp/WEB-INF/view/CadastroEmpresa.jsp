@@ -10,6 +10,8 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<c:import url="logout.jsp"></c:import>
+	
 	<h1>Cadastro de empresas</h1>
 	<form action="${linkNovaEmpresa}" method="post">
 		<label for="empresa">Nome</label>

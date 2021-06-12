@@ -11,6 +11,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<c:import url="logout.jsp"></c:import>
 	<h1>Empresa: ${ empresa.nome }</h1>
 	<form action="${linkNovaEmpresa}&id=${ empresa.id }" method="post">
 		<label for="empresa">Nome</label>

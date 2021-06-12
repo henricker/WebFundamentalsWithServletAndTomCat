@@ -11,6 +11,10 @@
 <title>Insert title here</title>
 </head>
 <body>
+	
+	<c:import url="logout.jsp"></c:import>
+	
+	Usuário logado: ${ user.login }
 	<h1>Empresas cadastradas</h1>
 	<ul>
 		<c:forEach items="${empresas}" var="empresa">
